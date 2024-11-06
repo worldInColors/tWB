@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Animated Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Preload the critical resources -->
+  
+</head>
+<body>
+<div class="nocursor">
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-progress">0%</div>
+    </div>
+    <!-- Gallery Container -->
+    <div class="container">
+        <div class="col c-1">
+            <div class="item"><img src="https://i.imgur.com/RBUJl1o.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/9Vb0k4I.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/E24w1Pq.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/Fdyvh6h.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/mMrWAlD.jpeg" alt="" /></div>
+        </div>
+        <div class="col c-2">
+            <div class="item"><img src="https://i.imgur.com/8VvZ1im.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/xHvXJSF.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/r6w9d2X.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/MZP6NBR.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/dNmy6Tq.jpeg" alt="" /></div>
+        </div>
+        <div class="col c-3">
+            <div class="item"><img src="https://i.imgur.com/oML0L0Z.jpeg alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/qA1sVeg.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/4vrkM1l.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/SyRZ42d.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/iQgJbw4.jpeg" alt="" /></div>
+        </div>
+        <div class="col c-4">
+           <div class="item"><img src="https://i.imgur.com/RBUJl1o.jpeg" alt="" /></div>
+           <div class="item"><img src="https://i.imgur.com/9Vb0k4I.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/E24w1Pq.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/Fdyvh6h.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/mMrWAlD.jpeg" alt="" /></div>
+        </div>
+        <div class="col c-5">
+            <div class="item"><img src="https://i.imgur.com/8VvZ1im.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/xHvXJSF.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/r6w9d2X.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/MZP6NBR.jpeg" alt="" /></div>
+            <div class="item"><img src="https://i.imgur.com/dNmy6Tq.jpeg" alt="" /></div>
+        </div>
+    </div>
+    <div class="content">
+        <nav>
+            <div class="nav-item">
+                <a href="#" id="active">Work</a>
+            </div>
+            <div class="nav-item">
+                <a href="#">About</a>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="icon"><ion-icon name="add-sharp"></ion-icon></div>
+            <div class="title"><p>The regen site</p></div>
+            <div class="icon-2"><ion-icon name="add-sharp"></ion-icon></div>
+        </div>
+        <footer>
+            <div class="preview">
+               <img src="https://i.imgur.com/RBUJl1o.jpeg" alt="" />
+                <img src="https://i.imgur.com/9Vb0k4I.jpeg" alt="" />
+                <img src="https://i.imgur.com/E24w1Pq.jpeg" alt="" />
+                <img src="https://i.imgur.com/Fdyvh6h.jpeg" alt="" />
+                <img src="https://i.imgur.com/mMrWAlD.jpeg" alt="" />
+                <img src="https://i.imgur.com/8VvZ1im.jpeg" alt="" />
+                <img src="https://i.imgur.com/xHvXJSF.jpeg" alt="" />
+            </div>
+            <div class="slide-num"><p>1 &mdash; 3</p></div>
+        </footer>
+    </div>
+      <div id="profile-section" style="display: none;"></div>
+    <script src="script.js"></script> <!-- Your custom JavaScript file -->
+</div>
+</body>
+</html>
